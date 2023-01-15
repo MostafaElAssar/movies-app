@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Risque&family=Special+Elite&display=swap');
+
+div.ant-col {
+    > article.ant-typography, > button.ant-btn {
+        &.action{
+            font-family: 'Special Elite', cursive;
+        }
+        &.comedy{
+            font-family: 'Happy Monkey', cursive;
+        }
+        &.horror{
+            font-family: 'Risque', cursive;
+        }
+    }
+
+    > button.ant-btn{
+        margin-top: 16px;
+        &.action{
+            background-color: black;
+        }
+        &.comedy{
+            background-color: green;
+        }
+        &.horror{
+            background-color: red;;
+        }
+    }
+}

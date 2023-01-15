@@ -1,0 +1,7 @@
+div.ant-carousel {
+    margin-bottom: 16px;
+    .slick-slider .slick-slide > div {
+        display: flex;
+        justify-content: center;
+    }
+}
